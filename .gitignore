@@ -1,0 +1,8 @@
+# Imágenes médicas
+*.dcm
+*.nii
+*.nii.gz
+
+# Entornos virtuales
+venv/
+.env/
