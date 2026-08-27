@@ -1,0 +1,14 @@
+# Dependencias del proyecto Fibrosis Radiómica
+pyradiomics>=3.0.1
+SimpleITK>=2.2.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+joblib>=1.3.0
+pydicom>=2.4.0
+scipy>=1.10.0
+torch>=2.0.0
+lungmask>=0.2.20
+scikit-image>=0.20.0
+fill-voids>=2.0.0
