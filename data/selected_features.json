@@ -1,0 +1,132 @@
+{
+    "n_features": 15,
+    "features": [
+        "wavelet-LL_ngtdm_Coarseness",
+        "wavelet-HL_firstorder_Median",
+        "wavelet-LL_glszm_GrayLevelNonUniformity",
+        "square_glcm_ClusterShade",
+        "wavelet-LH_firstorder_Median",
+        "wavelet-LL_glrlm_GrayLevelNonUniformityNormalized",
+        "gradient_glcm_Imc1",
+        "wavelet-LL_glrlm_GrayLevelNonUniformity",
+        "wavelet-LL_firstorder_Uniformity",
+        "wavelet-HL_glcm_Correlation",
+        "logarithm_glcm_Correlation",
+        "square_glcm_MCC",
+        "original_gldm_LowGrayLevelEmphasis",
+        "wavelet-LL_gldm_GrayLevelNonUniformity",
+        "square_glszm_ZoneEntropy"
+    ],
+    "feature_details": {
+        "wavelet-LL_ngtdm_Coarseness": {
+            "coefficient": 2.1758161576058836,
+            "importance": 2.1758161576058836,
+            "image_type": "wavelet-LL",
+            "feature_class": "ngtdm"
+        },
+        "wavelet-HL_firstorder_Median": {
+            "coefficient": 0.7339330320858882,
+            "importance": 0.7339330320858882,
+            "image_type": "wavelet-HL",
+            "feature_class": "firstorder"
+        },
+        "wavelet-LL_glszm_GrayLevelNonUniformity": {
+            "coefficient": -0.6465733763030201,
+            "importance": 0.6465733763030201,
+            "image_type": "wavelet-LL",
+            "feature_class": "glszm"
+        },
+        "square_glcm_ClusterShade": {
+            "coefficient": 0.5326374397260356,
+            "importance": 0.5326374397260356,
+            "image_type": "square",
+            "feature_class": "glcm"
+        },
+        "wavelet-LH_firstorder_Median": {
+            "coefficient": 0.5148619392280883,
+            "importance": 0.5148619392280883,
+            "image_type": "wavelet-LH",
+            "feature_class": "firstorder"
+        },
+        "wavelet-LL_glrlm_GrayLevelNonUniformityNormalized": {
+            "coefficient": -0.39301446970709963,
+            "importance": 0.39301446970709963,
+            "image_type": "wavelet-LL",
+            "feature_class": "glrlm"
+        },
+        "gradient_glcm_Imc1": {
+            "coefficient": 0.38797965832179165,
+            "importance": 0.38797965832179165,
+            "image_type": "gradient",
+            "feature_class": "glcm"
+        },
+        "wavelet-LL_glrlm_GrayLevelNonUniformity": {
+            "coefficient": -0.374050626792265,
+            "importance": 0.374050626792265,
+            "image_type": "wavelet-LL",
+            "feature_class": "glrlm"
+        },
+        "wavelet-LL_firstorder_Uniformity": {
+            "coefficient": -0.31291898828161235,
+            "importance": 0.31291898828161235,
+            "image_type": "wavelet-LL",
+            "feature_class": "firstorder"
+        },
+        "wavelet-HL_glcm_Correlation": {
+            "coefficient": -0.3108855679805596,
+            "importance": 0.3108855679805596,
+            "image_type": "wavelet-HL",
+            "feature_class": "glcm"
+        },
+        "logarithm_glcm_Correlation": {
+            "coefficient": -0.2857049495473446,
+            "importance": 0.2857049495473446,
+            "image_type": "logarithm",
+            "feature_class": "glcm"
+        },
+        "square_glcm_MCC": {
+            "coefficient": -0.2852026993604222,
+            "importance": 0.2852026993604222,
+            "image_type": "square",
+            "feature_class": "glcm"
+        },
+        "original_gldm_LowGrayLevelEmphasis": {
+            "coefficient": 0.2722338674701331,
+            "importance": 0.2722338674701331,
+            "image_type": "original",
+            "feature_class": "gldm"
+        },
+        "wavelet-LL_gldm_GrayLevelNonUniformity": {
+            "coefficient": -0.2677464059295608,
+            "importance": 0.2677464059295608,
+            "image_type": "wavelet-LL",
+            "feature_class": "gldm"
+        },
+        "square_glszm_ZoneEntropy": {
+            "coefficient": 0.2555519434279835,
+            "importance": 0.2555519434279835,
+            "image_type": "square",
+            "feature_class": "glszm"
+        }
+    },
+    "required_image_types": [
+        "Gradient",
+        "Logarithm",
+        "Original",
+        "Square",
+        "Wavelet"
+    ],
+    "required_feature_classes": [
+        "firstorder",
+        "glcm",
+        "gldm",
+        "glrlm",
+        "glszm",
+        "ngtdm"
+    ],
+    "metadata_columns": [
+        "Clase_Label",
+        "ID_Paciente",
+        "Nombre_Archivo"
+    ]
+}
