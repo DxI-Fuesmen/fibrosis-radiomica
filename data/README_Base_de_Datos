@@ -1,0 +1,34 @@
+A multimedia collection of cases with interstitial lung diseases (ILDs) built at the University Hospitals of Geneva (HUG) is made publicly available. The dataset contains high-resolution computed tomography (HRCT) image series with three-dimensional annotated regions of pathological lung tissue along with clinical parameters from patients with pathologically proven diagnoses of ILDs. The motivations for this work is to palliate the lack of publicly available collections of ILD cases to serve as a basis for the development and evaluation of image-based computerized diagnostic aid. After 38 months of data collection, the library contains 128 patients affected with one of the 13 histological diagnoses of ILDs, 108 image series with more than 41liters of annotated lung tissue patterns as well as a comprehensive set of 99 clinical parameters related to ILDs. 
+
+A comprehensive description of the dataset can be found in: 
+"Building a reference multimedia database for interstitial lung diseases". Depeursinge A, Vargas A, Platon A, Geissbuhler A, Poletti PA, Müller H. In: Computerized Medical Imaging and Graphics, 36:3(227-238).
+
+This paper should always be referenced when using the database.
+
+The data can be accessed after sending the signed end-user copyright agreement by email to: adrien.depeursinge at hevs.ch.
+It can be found here: http://medgift.hevs.ch/silverstripe/index.php/team/adrien-depeursinge/multimedia-database-of-interstitial-lung-diseases/
+
+--------------------- CONTENTS ---------------------
+
+The data is contained in the Folder "ILD_DB_lungMasks". Lung masks are also available for each case.
+
+Annotated regions of interest (ROI) are available in two formats:
+
+A text format in the folder "ILD_DB_txtROIs". Each folder contains DICOM images and a .txt file containing annotations. Matlab and Java scripts are avalable to parse the .txt files: loadROIfiles.m and loadROIfiles.java, respectively. 
+
+Volume labels are also available in the folder "ILD_DB_volumeROIs". Each folder contains DICOM images and a folder "roi_mask" containing annotations in DICOM file series. The label values are corresponding to:
+healthy=1, emphysema=2, ground_glass=3, fibrosis=4, micronodules=5, consolidation=6, bronchial_wall_thickening=7, reticulation=8, macronodules=9, cysts=10, peripheral_micronodules=11, bronchiectasis=12, air_trapping=13, early_fibrosis=14, increased_attenuation=15, tuberculosis=16, pcp=17. 
+
+
+--------------------- Talisman Test Suite ---------------------
+
+A fixed validation suite is available in the folder "ILD_DB_talismanTestSuite". It allows for a direct comparison between algorithm's performance. It consists in a total of XXX 32x32 patches from classes healthy, emphysema, ground_glass, fibrosis, and micronodules. Each patch is stored in a tiff file with name: fibrosis_patch1771_patient64.tif. The pixel values in Hounsfield Units. The file name includes the label, the patch instance number, and the patient number. The latter can be used to construct the leave-one-patient-out cross-validation (LOPO CV). An additional set of patches is available for training only with names as: "emphysema_patch1177_patient-1_11.tif", where the patient numbers are starting with -1_*. Over the LOPO, the total number of instances available for testing is 14594, where the instances are distributed between classes as:
+healthy: 3011
+emphysema: 407
+ground_glass: 2226
+fibrosis: 2962
+micronodules: 5988
+
+The Talisman Test Suite was used in the following paper:
+"Multiscale Lung Texture Signature Learning Using The Riesz Transform". Depeursinge A, Foncubierta-Rodríguez A, Van De Ville D, Müller H. In: Med Image Comput Comput Assist Interv. 2012;15(Pt 3):517-24.
+
