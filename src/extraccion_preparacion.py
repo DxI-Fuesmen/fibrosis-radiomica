@@ -15,11 +15,16 @@ warnings.filterwarnings("ignore")
 # ==========================================
 # Reemplaza estas rutas por la ubicación real de tus carpetas en Windows
 # Importante: Usa doble barra \\ en las rutas de Windows o pon una 'r' antes de las comillas
-dir_healthy = r"C:\Users\rtagliavini\Documents\Base Pulmon\ILD_DB\Talisman_Clasificado\healthy"
-dir_fibrosis = r"C:\Users\rtagliavini\Documents\Base Pulmon\ILD_DB\Talisman_Clasificado\fibrosis"
+dir_healthy = r"C:\Users\malcalde\Documents\Base Pulmon\ILD_DB\Talisman_Clasificado\healthy"
+dir_fibrosis = r"C:\Users\malcalde\Documents\Base Pulmon\ILD_DB\Talisman_Clasificado\fibrosis"
+
+# Directorio base del proyecto
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+os.makedirs(DATA_DIR, exist_ok=True)
 
 # Archivo CSV de salida con todas las características
-output_csv = "dataset_radiomico_fibrosis.csv"
+output_csv = os.path.join(DATA_DIR, "dataset_radiomico_fibrosis.csv")
 
 # Límite de parches para balancear las clases (tienes 2793 de fibrosis, así que 2500 es un buen número)
 MAX_PATCHES_POR_CLASE = 2500 
