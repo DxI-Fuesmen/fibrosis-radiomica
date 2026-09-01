@@ -8,3 +8,5 @@
 # Entornos virtuales
 venv/
 .env/
+
+base/
