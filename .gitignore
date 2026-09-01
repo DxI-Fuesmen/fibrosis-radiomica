@@ -3,6 +3,8 @@
 *.nii
 *.nii.gz
 data/*.png
+data/*.tif
+data/*.bmp
 # Entornos virtuales
 venv/
 .env/
