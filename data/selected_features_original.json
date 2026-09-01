@@ -1,0 +1,161 @@
+{
+  "tipo": "Fase_A_Originales",
+  "num_features": 15,
+  "required_image_types": [
+    "Original"
+  ],
+  "features": [
+    "original_firstorder_Mean",
+    "original_glcm_Correlation",
+    "original_glszm_ZoneEntropy",
+    "original_glcm_MCC",
+    "original_glcm_SumAverage",
+    "original_glcm_Idn",
+    "original_ngtdm_Coarseness",
+    "original_glrlm_LowGrayLevelRunEmphasis",
+    "original_glcm_InverseVariance",
+    "original_glszm_LowGrayLevelZoneEmphasis",
+    "original_glcm_SumEntropy",
+    "original_glrlm_GrayLevelNonUniformityNormalized",
+    "original_glcm_Idmn",
+    "original_gldm_LargeDependenceHighGrayLevelEmphasis",
+    "original_ngtdm_Busyness"
+  ],
+  "weights": [
+    {
+      "feature": "original_firstorder_Mean",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 2.7608896215307617,
+      "importancia_total": 2.970538895147885,
+      "coef_sano": -1.96562801327453,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 1.0049108818733548
+    },
+    {
+      "feature": "original_glcm_Correlation",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 1.5186341265270562,
+      "importancia_total": 1.53121742246132,
+      "coef_sano": -1.5084696893837373,
+      "coef_ggo": 0.022747733077582603,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_glszm_ZoneEntropy",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 1.1417065879065393,
+      "importancia_total": 1.1381381075261598,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.6532046190857694,
+      "coef_fibrosis": -0.48493348844039047
+    },
+    {
+      "feature": "original_glcm_MCC",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 1.001269681215973,
+      "importancia_total": 1.11258434144444,
+      "coef_sano": 0.49628643943092376,
+      "coef_ggo": -0.6162979020135163,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_glcm_SumAverage",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.9206227320256415,
+      "importancia_total": 1.0686683582092251,
+      "coef_sano": -0.4555050218618665,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.6131633363473586
+    },
+    {
+      "feature": "original_glcm_Idn",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7338558762263488,
+      "importancia_total": 1.0383689926350876,
+      "coef_sano": 0.0,
+      "coef_ggo": 1.0383689926350876,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_ngtdm_Coarseness",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.9735406953725511,
+      "importancia_total": 0.9544159211277147,
+      "coef_sano": 0.8908050411055666,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.06361088002214814
+    },
+    {
+      "feature": "original_glrlm_LowGrayLevelRunEmphasis",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7552288142350773,
+      "importancia_total": 0.9299844369178666,
+      "coef_sano": 0.0,
+      "coef_ggo": -0.36821250196257904,
+      "coef_fibrosis": 0.5617719349552875
+    },
+    {
+      "feature": "original_glcm_InverseVariance",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7890275119319641,
+      "importancia_total": 0.8990004191104449,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.8990004191104449
+    },
+    {
+      "feature": "original_glszm_LowGrayLevelZoneEmphasis",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.9683867046183391,
+      "importancia_total": 0.8849603014662649,
+      "coef_sano": 0.11426734866467624,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.7706929528015887
+    },
+    {
+      "feature": "original_glcm_SumEntropy",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5800093069083156,
+      "importancia_total": 0.8788012074429276,
+      "coef_sano": -0.8788012074429276,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_glrlm_GrayLevelNonUniformityNormalized",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.9185054323640361,
+      "importancia_total": 0.8271634022865589,
+      "coef_sano": 0.023262537325428007,
+      "coef_ggo": -0.8039008649611309,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_glcm_Idmn",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5630669068468933,
+      "importancia_total": 0.7992569094983899,
+      "coef_sano": 0.0,
+      "coef_ggo": -0.41703022712547594,
+      "coef_fibrosis": 0.3822266823729139
+    },
+    {
+      "feature": "original_gldm_LargeDependenceHighGrayLevelEmphasis",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7151204008130506,
+      "importancia_total": 0.77060826420932,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.77060826420932
+    },
+    {
+      "feature": "original_ngtdm_Busyness",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.6074051981330024,
+      "importancia_total": 0.7072628890459607,
+      "coef_sano": 2.862584843390934e-10,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.7072628887597022
+    }
+  ]
+}

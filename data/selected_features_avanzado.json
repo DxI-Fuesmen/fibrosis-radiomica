@@ -1,0 +1,214 @@
+{
+  "tipo": "Fase_B_Avanzado",
+  "num_features": 20,
+  "required_image_types": [
+    "Gradient",
+    "LoG",
+    "Original",
+    "Square"
+  ],
+  "features": [
+    "square_glcm_Correlation",
+    "square_firstorder_Energy",
+    "original_firstorder_Mean",
+    "square_glcm_Imc2",
+    "square_glcm_Idn",
+    "square_firstorder_Skewness",
+    "square_glszm_ZoneEntropy",
+    "log-sigma-3-0-mm-3D_glcm_MaximumProbability",
+    "original_glrlm_LowGrayLevelRunEmphasis",
+    "square_firstorder_Minimum",
+    "gradient_glrlm_RunLengthNonUniformityNormalized",
+    "square_ngtdm_Coarseness",
+    "log-sigma-1-0-mm-3D_ngtdm_Coarseness",
+    "log-sigma-2-0-mm-3D_glcm_Imc1",
+    "original_firstorder_Minimum",
+    "square_gldm_GrayLevelNonUniformity",
+    "log-sigma-2-0-mm-3D_gldm_DependenceVariance",
+    "log-sigma-5-0-mm-3D_glszm_SmallAreaHighGrayLevelEmphasis",
+    "log-sigma-2-0-mm-3D_glcm_InverseVariance",
+    "log-sigma-2-0-mm-3D_glszm_GrayLevelNonUniformity"
+  ],
+  "weights": [
+    {
+      "feature": "square_glcm_Correlation",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 1.3207350400298954,
+      "importancia_total": 1.558423409769475,
+      "coef_sano": -0.7614997183633,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.7969236914061749
+    },
+    {
+      "feature": "square_firstorder_Energy",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 1.4042848575903402,
+      "importancia_total": 1.4969892266966793,
+      "coef_sano": 0.6786945551604381,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.8182946715362411
+    },
+    {
+      "feature": "original_firstorder_Mean",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.9796442294067893,
+      "importancia_total": 0.885256688133211,
+      "coef_sano": -0.824404446430423,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.06085224170278798
+    },
+    {
+      "feature": "square_glcm_Imc2",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.6824374035112691,
+      "importancia_total": 0.8224715898268924,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.8224715898268924
+    },
+    {
+      "feature": "square_glcm_Idn",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.6288679174416384,
+      "importancia_total": 0.7947554840840078,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.6101785913205119,
+      "coef_fibrosis": -0.18457689276349587
+    },
+    {
+      "feature": "square_firstorder_Skewness",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7889826569092313,
+      "importancia_total": 0.7241080777013502,
+      "coef_sano": 0.0,
+      "coef_ggo": -0.17894032686609251,
+      "coef_fibrosis": 0.5451677508352577
+    },
+    {
+      "feature": "square_glszm_ZoneEntropy",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.7338218000597229,
+      "importancia_total": 0.7109879778132095,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.3795980137366685,
+      "coef_fibrosis": -0.3313899640765411
+    },
+    {
+      "feature": "log-sigma-3-0-mm-3D_glcm_MaximumProbability",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5470824661735776,
+      "importancia_total": 0.7033548977443564,
+      "coef_sano": 0.3933395827258233,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.3100153150185332
+    },
+    {
+      "feature": "original_glrlm_LowGrayLevelRunEmphasis",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.578065802561215,
+      "importancia_total": 0.6911688142815391,
+      "coef_sano": 0.0,
+      "coef_ggo": -0.452052196576658,
+      "coef_fibrosis": 0.23911661770488105
+    },
+    {
+      "feature": "square_firstorder_Minimum",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5074948697844684,
+      "importancia_total": 0.6890670063773658,
+      "coef_sano": 0.3420189042146168,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.34704810216274906
+    },
+    {
+      "feature": "gradient_glrlm_RunLengthNonUniformityNormalized",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5202602625800294,
+      "importancia_total": 0.6800165910238429,
+      "coef_sano": -0.25433256471243637,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.4256840263114066
+    },
+    {
+      "feature": "square_ngtdm_Coarseness",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.569388814507199,
+      "importancia_total": 0.556432624748476,
+      "coef_sano": 0.5316978836268781,
+      "coef_ggo": -0.024734741121597945,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "log-sigma-1-0-mm-3D_ngtdm_Coarseness",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.5186601753100606,
+      "importancia_total": 0.512496183366213,
+      "coef_sano": -0.098420421152636,
+      "coef_ggo": 0.41407576221357706,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "log-sigma-2-0-mm-3D_glcm_Imc1",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.4753187968077068,
+      "importancia_total": 0.5006180558909532,
+      "coef_sano": -0.15505822531269953,
+      "coef_ggo": 0.3455598305782537,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "original_firstorder_Minimum",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.4444644311644514,
+      "importancia_total": 0.4092766046190769,
+      "coef_sano": -0.26649108398282534,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": 0.14278552063625158
+    },
+    {
+      "feature": "square_gldm_GrayLevelNonUniformity",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.34201326651762864,
+      "importancia_total": 0.39739994348287805,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.39739994348287805,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "log-sigma-2-0-mm-3D_gldm_DependenceVariance",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.32645593655301164,
+      "importancia_total": 0.36778371745313476,
+      "coef_sano": 0.2151481864599981,
+      "coef_ggo": -0.1526355309931367,
+      "coef_fibrosis": 0.0
+    },
+    {
+      "feature": "log-sigma-5-0-mm-3D_glszm_SmallAreaHighGrayLevelEmphasis",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.25153137589898444,
+      "importancia_total": 0.3311275460274496,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.3311275460274496
+    },
+    {
+      "feature": "log-sigma-2-0-mm-3D_glcm_InverseVariance",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.27217829794333037,
+      "importancia_total": 0.32887246516915225,
+      "coef_sano": 0.0,
+      "coef_ggo": 0.0,
+      "coef_fibrosis": -0.32887246516915225
+    },
+    {
+      "feature": "log-sigma-2-0-mm-3D_glszm_GrayLevelNonUniformity",
+      "estabilidad_cv": 1.0,
+      "importancia_media_cv": 0.2713990726857654,
+      "importancia_total": 0.32202789056909503,
+      "coef_sano": -0.1437484892817793,
+      "coef_ggo": 0.17827940128731573,
+      "coef_fibrosis": 0.0
+    }
+  ]
+}

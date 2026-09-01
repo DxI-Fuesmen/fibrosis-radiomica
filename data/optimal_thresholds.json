@@ -1,0 +1,33 @@
+{
+  "modelo": "Random Forest (Avanzado)",
+  "umbrales_youden": {
+    "sano": 0.4054,
+    "ggo": 0.228,
+    "fibrosis": 0.2143
+  },
+  "puntos_detalle": {
+    "Sano": {
+      "fpr": 0.05541666666666667,
+      "tpr": 0.9041666666666667,
+      "threshold": 0.40541704920369404,
+      "j_score": 0.84875
+    },
+    "GGO": {
+      "fpr": 0.28625,
+      "tpr": 0.8641666666666666,
+      "threshold": 0.22803142434471158,
+      "j_score": 0.5779166666666666
+    },
+    "Fibrosis": {
+      "fpr": 0.33791666666666664,
+      "tpr": 0.97,
+      "threshold": 0.21425877672274557,
+      "j_score": 0.6320833333333333
+    }
+  },
+  "pesos_decision_optimos": {
+    "sano": 0.6,
+    "ggo": 1.2,
+    "fibrosis": 0.6
+  }
+}

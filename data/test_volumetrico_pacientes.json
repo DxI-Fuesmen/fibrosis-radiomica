@@ -1,0 +1,90 @@
+[
+  {
+    "id": "SSc_03",
+    "num": 3,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\3.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\3.nrrd",
+    "slices": 95,
+    "total_lung_voxels": 1849845,
+    "sano_pct": 67.76,
+    "ggo_pct": 6.05,
+    "fib_pct": 26.19
+  },
+  {
+    "id": "SSc_08",
+    "num": 8,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\8.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\8.nrrd",
+    "slices": 40,
+    "total_lung_voxels": 1752713,
+    "sano_pct": 90.82,
+    "ggo_pct": 0.0,
+    "fib_pct": 9.18
+  },
+  {
+    "id": "SSc_14",
+    "num": 14,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\14.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\14.nrrd",
+    "slices": 202,
+    "total_lung_voxels": 4665544,
+    "sano_pct": 59.63,
+    "ggo_pct": 14.53,
+    "fib_pct": 25.84
+  },
+  {
+    "id": "SSc_20",
+    "num": 20,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\20.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\20.nrrd",
+    "slices": 164,
+    "total_lung_voxels": 2080999,
+    "sano_pct": 64.14,
+    "ggo_pct": 30.07,
+    "fib_pct": 5.79
+  },
+  {
+    "id": "SSc_25",
+    "num": 25,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\25.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\25.nrrd",
+    "slices": 64,
+    "total_lung_voxels": 2002245,
+    "sano_pct": 68.03,
+    "ggo_pct": 0.51,
+    "fib_pct": 31.46
+  },
+  {
+    "id": "SSc_32",
+    "num": 32,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\32.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\32.nrrd",
+    "slices": 152,
+    "total_lung_voxels": 3745559,
+    "sano_pct": 91.37,
+    "ggo_pct": 7.88,
+    "fib_pct": 0.75
+  },
+  {
+    "id": "SSc_37",
+    "num": 37,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\37.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\37.nrrd",
+    "slices": 59,
+    "total_lung_voxels": 2209602,
+    "sano_pct": 85.22,
+    "ggo_pct": 14.42,
+    "fib_pct": 0.37
+  },
+  {
+    "id": "SSc_40",
+    "num": 40,
+    "nii_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\40.nii",
+    "nrrd_path": "C:\\Users\\malcalde\\Documents\\GitHub\\fibrosis-radiomica\\src\\..\\base\\SSc-ILD\\40.nrrd",
+    "slices": 175,
+    "total_lung_voxels": 2949062,
+    "sano_pct": 90.43,
+    "ggo_pct": 6.53,
+    "fib_pct": 3.05
+  }
+]

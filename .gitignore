@@ -8,3 +8,5 @@ data/*.bmp
 # Entornos virtuales
 venv/
 .env/
+/base
+/data/preprocesado_77

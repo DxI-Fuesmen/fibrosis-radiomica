@@ -1,0 +1,11 @@
+{
+  "n_iteraciones": 100,
+  "auc_real": 0.9104,
+  "auc_nulo_medio": 0.4991,
+  "auc_nulo_std": 0.0094,
+  "ic_95_nulo": [
+    0.4799,
+    0.5184
+  ],
+  "p_value": 0.0099
+}
