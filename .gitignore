@@ -2,9 +2,9 @@
 *.dcm
 *.nii
 *.nii.gz
-data/*.png
-data/*.tif
-data/*.bmp
+*.png
+*.tif
+*.bmp
 # Entornos virtuales
 venv/
 .env/
